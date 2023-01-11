@@ -1,10 +1,11 @@
-from django.test import APITestCase
+from django.test import TestCase
 from rest_framework.test import APIRequestFactory, force_authenticate
-from .models import Ad, Property
-from .serializers import AdSerializer
-from .views import AdViewSet
+from apps.ad.models import Ad
+from apps.property.models import Property
+from apps.ad.serializers import AdSerializer
+from apps.ad.views import AdViewSet
 
-class AdViewSetTestCase(APITestCase):
+class AdViewSetTestCase(TestCase):
     def setUp(self):
         self.property = Property.objects.create(
             code="property1", max_guests=2, num_bathrooms=1,

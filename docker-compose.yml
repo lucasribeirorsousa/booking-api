@@ -1,6 +1,22 @@
 version: '3.9'
 
 services:
+  db_khanto:
+    container_name: DB_khanto
+    image: postgres:14.1
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=postgres
+    command: postgres -c stats_temp_directory=/tmp
+    ports:
+      - "5435:5432"
+    networks:
+      - production-network
+    expose:
+      - 5432
+
   api:
     build:
       dockerfile: docker/api.dockerfile
@@ -18,7 +34,12 @@ services:
     volumes:
       - .:/code
     environment:
-      - SECRET_KEY='this-is-a-secret'
+      - POSTGRES_NAME=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - SECRET_KEY='this-is-a-secret-key'
+    depends_on:
+      - db_khanto
     networks:
       - production-network
     restart: on-failure:30

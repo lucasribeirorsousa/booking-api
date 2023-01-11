@@ -1,0 +1,122 @@
+[
+    {
+        "model": "reservation.reservation",
+        "pk": 1,
+        "fields": {
+            "code": "123456",
+            "ad": 1,
+            "check_in": "2022-01-01",
+            "check_out": "2022-01-05",
+            "total_price": "200.00",
+            "comment": "Great stay!",
+            "num_guests": 2,
+            "created_at": "2022-01-01T12:00:00Z",
+            "updated_at": "2022-01-01T12:00:00Z"
+        }
+    },
+    {
+        "model": "reservation.reservation",
+        "pk": 2,
+        "fields": {
+            "code": "789012",
+            "ad": 2,
+            "check_in": "2022-02-01",
+            "check_out": "2022-02-05",
+            "total_price": "150.00",
+            "comment": "Nice place!",
+            "num_guests": 3,
+            "created_at": "2022-01-01T12:00:00Z",
+            "updated_at": "2022-01-01T12:00:00Z"
+        }
+    },
+    {
+        "model": "reservation.reservation",
+        "pk": 3,
+        "fields": {
+            "code": "345678",
+            "ad": 3,
+            "check_in": "2022-03-01",
+            "check_out": "2022-03-05",
+            "total_price": "250.00",
+            "comment": "Great location!",
+            "num_guests": 4,
+            "created_at": "2022-01-01T12:00:00Z",
+            "updated_at": "2022-01-01T12:00:00Z"
+        }
+    },
+    {
+        "model": "reservation.reservation",
+        "pk": 4,
+        "fields": {
+            "code": "901234",
+            "ad": 1,
+            "check_in": "2022-04-01",
+            "check_out": "2022-04-05",
+            "total_price": "300.00",
+            "comment": "Loved it!",
+            "num_guests": 5,
+            "created_at": "2022-01-01T12:00:00Z",
+            "updated_at": "2022-01-01T12:00:00Z"
+        }
+    },
+    {
+        "model": "reservation.reservation",
+        "pk": 5,
+        "fields": {
+            "code": "123456",
+            "ad": 2,
+            "check_in": "2022-04-01",
+            "check_out": "2022-04-05",
+            "total_price": "300.00",
+            "comment": "Loved it!",
+            "num_guests": 5,
+            "created_at": "2022-01-01T12:00:00Z",
+            "updated_at": "2022-01-01T12:00:00Z"
+        }
+    },
+    {
+        "model": "reservation.reservation",
+        "pk": 6,
+        "fields": {
+            "code": "963852",
+            "ad": 2,
+            "check_in": "2022-04-01",
+            "check_out": "2022-04-05",
+            "total_price": "300.00",
+            "comment": "Loved it!",
+            "num_guests": 5,
+            "created_at": "2022-01-01T12:00:00Z",
+            "updated_at": "2022-01-01T12:00:00Z"
+        }
+    },
+    {
+        "model": "reservation.reservation",
+        "pk": 7,
+        "fields": {
+            "code": "741852",
+            "ad": 1,
+            "check_in": "2022-04-01",
+            "check_out": "2022-04-05",
+            "total_price": "300.00",
+            "comment": "Loved it!",
+            "num_guests": 5,
+            "created_at": "2022-01-01T12:00:00Z",
+            "updated_at": "2022-01-01T12:00:00Z"
+        }
+    },
+    {
+        "model": "reservation.reservation",
+        "pk": 8,
+        "fields": {
+            "code": "904564",
+            "ad": 3,
+            "check_in": "2022-04-01",
+            "check_out": "2022-04-05",
+            "total_price": "300.00",
+            "comment": "Loved it!",
+            "num_guests": 5,
+            "created_at": "2022-01-01T12:00:00Z",
+            "updated_at": "2022-01-01T12:00:00Z"
+        }
+    }
+]
