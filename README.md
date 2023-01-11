@@ -18,13 +18,13 @@ These instructions will get you a copy of the project up and running on your loc
 ### Installing
 
 1. Clone the repository:
-git clone https://github.com/lucasribeirorsousa/carford-app.git
+'git clone https://github.com/lucasribeirorsousa/carford-app.git'
 
 2. Run project
-docker-compose up
+'docker-compose up'
 
-2. Execute tests
-pytest path/
+3. Execute tests
+'pytest path/'
 
 ### API Endpoints
 
