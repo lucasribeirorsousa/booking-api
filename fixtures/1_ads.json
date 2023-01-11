@@ -1,0 +1,35 @@
+[
+    {
+        "model": "ad.ad",
+        "pk": 1,
+        "fields": {
+            "property": 1,
+            "platform": "AirBnb",
+            "platform_fee": 20.00,
+            "created_at": "2022-01-01T12:00:00Z",
+            "updated_at": "2022-01-01T12:00:00Z"
+        }
+    },
+    {
+        "model": "ad.ad",
+        "pk": 2,
+        "fields": {
+            "property": 2,
+            "platform": "Booking",
+            "platform_fee": 25.00,
+            "created_at": "2022-01-01T12:00:00Z",
+            "updated_at": "2022-01-01T12:00:00Z"
+        }
+    },
+    {
+        "model": "ad.ad",
+        "pk": 3,
+        "fields": {
+            "property": 3,
+            "platform": "Booking",
+            "platform_fee": 20.00,
+            "created_at": "2022-01-01T12:00:00Z",
+            "updated_at": "2022-01-01T12:00:00Z"
+        }
+    }
+]

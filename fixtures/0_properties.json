@@ -1,0 +1,72 @@
+[
+    {
+        "model": "property.property",
+        "pk": 1,
+        "fields": {
+            "code": "property1",
+            "max_guests": 2,
+            "num_bathrooms": 1,
+            "pet_friendly": true,
+            "cleaning_fee": 50.00,
+            "activation_date": "2022-01-01",
+            "created_at": "2022-01-01T12:00:00Z",
+            "updated_at": "2022-01-01T12:00:00Z"
+        }
+    },
+    {
+        "model": "property.property",
+        "pk": 2,
+        "fields": {
+            "code": "property2",
+            "max_guests": 4,
+            "num_bathrooms": 2,
+            "pet_friendly": true,
+            "cleaning_fee": 75.00,
+            "activation_date": "2022-01-01",
+            "created_at": "2022-01-01T12:00:00Z",
+            "updated_at": "2022-01-01T12:00:00Z"
+        }
+    },
+    {
+        "model": "property.property",
+        "pk": 3,
+        "fields": {
+            "code": "property3",
+            "max_guests": 3,
+            "num_bathrooms": 2,
+            "pet_friendly": true,
+            "cleaning_fee": 75.00,
+            "activation_date": "2022-01-01",
+            "created_at": "2022-01-01T12:00:00Z",
+            "updated_at": "2022-01-01T12:00:00Z"
+        }
+    },
+    {
+        "model": "property.property",
+        "pk": 4,
+        "fields": {
+            "code": "property4",
+            "max_guests": 4,
+            "num_bathrooms": 2,
+            "pet_friendly": false,
+            "cleaning_fee": 100.00,
+            "activation_date": "2022-01-01",
+            "created_at": "2022-01-01T12:00:00Z",
+            "updated_at": "2022-01-01T12:00:00Z"
+        }
+    },
+    {
+        "model": "property.property",
+        "pk": 5,
+        "fields": {
+            "code": "property5",
+            "max_guests": 5,
+            "num_bathrooms": 2,
+            "pet_friendly": true,
+            "cleaning_fee": 80.00,
+            "activation_date": "2022-01-01",
+            "created_at": "2022-01-01T12:00:00Z",
+            "updated_at": "2022-01-01T12:00:00Z"
+        }
+    }
+]

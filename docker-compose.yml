@@ -1,0 +1,31 @@
+version: '3.9'
+
+services:
+  api:
+    build:
+      dockerfile: docker/api.dockerfile
+      context: .
+    container_name: api_khanto
+    command: >
+      sh -c " python manage.py makemigrations
+              python manage.py migrate sites
+              python manage.py migrate
+              python manage.py collectstatic
+              python manage.py loaddata fixtures/*.json 
+              python manage.py runserver 0.0.0.0:8000"
+    ports:
+      - "8083:8000"
+    volumes:
+      - .:/code
+    environment:
+      - SECRET_KEY='this-is-a-secret'
+    networks:
+      - production-network
+    restart: on-failure:30
+
+volumes:
+  postgres_data:
+
+networks:
+  production-network:
+    driver: bridge
